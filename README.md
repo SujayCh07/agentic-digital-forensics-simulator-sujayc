@@ -1,4 +1,5 @@
 # EchoLocate - Sujay Chava
+Personal engineering case study by Sujay Chava.
 
 EchoLocate is a cyber forensics investigation game where players coordinate AI specialist agents to trace an incident across a moon-city infrastructure map.
 
