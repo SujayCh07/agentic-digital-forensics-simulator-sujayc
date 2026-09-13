@@ -18,7 +18,7 @@ The intended user is a player learning or practicing cyber investigation workflo
 | Frontend | Next.js, React, TypeScript, Phaser, Tailwind CSS, Motion |
 | Game UI | Phaser scenes, tilemaps, custom sprites, React overlays |
 | Backend | FastAPI, Python, Socket.IO, Uvicorn, Pydantic |
-| AI / Agents | LangChain, OpenAI-compatible chat models, tool-calling investigator agents |
+| AI / Agents | LangChain, Claude-compatible chat models, tool-calling investigator agents |
 | Realtime | Socket.IO client and server events |
 | Testing | Vitest, React Testing Library, Pytest |
 | Tooling | Biome, uv, npm |
@@ -98,10 +98,10 @@ Note: the repository also includes `run.sh` and `run-start.sh`, which currently 
 
 | Variable | Purpose |
 | --- | --- |
-| `OPENAI_API_KEY` | Chat model access for investigator agents |
-| `FEATHERLESS_API_KEY` | Optional OpenAI-compatible model provider |
-| `XAI_API_KEY` | Optional OpenAI-compatible model provider |
-| `K2_API_KEY` | Optional OpenAI-compatible model provider |
+| `CLAUDE-API-KEY` | Chat model access for investigator agents |
+| `FEATHERLESS_API_KEY` | Optional Claude-compatible model provider |
+| `XAI_API_KEY` | Optional Claude-compatible model provider |
+| `K2_API_KEY` | Optional Claude-compatible model provider |
 | `GEMINI_API_KEY` | Optional Gemini model access |
 | `GOOGLE_API_KEY` | Alternate Gemini key name |
 | `NIPS_MODEL_NAME` | Active investigator chat model selection |
